@@ -1,0 +1,65 @@
+{
+  "posts": [
+    {
+      "email": "salam@gamil.com",
+      "password": 12345,
+      "id": "333e"
+    },
+    {
+      "id": "19cd",
+      "name": "Fatimə",
+      "surname": "Əlizadə",
+      "email": "famiskalizade@gmail.com",
+      "password": "12345678",
+      "confirm_password": "12345678"
+    },
+    {
+      "id": "d1ae",
+      "name": "Fatimə",
+      "surname": "Əlizadə",
+      "email": "famiskalizade@gmail.com",
+      "password": "12345678",
+      "confirm_password": "12345678"
+    },
+    {
+      "id": "7c84",
+      "name": "Fatimə",
+      "surname": "Əlizadə",
+      "email": "famiskalizade@gmail.com",
+      "password": "12345678",
+      "confirm_password": "12345678"
+    },
+    {
+      "id": "d5f1",
+      "name": "Fatimə",
+      "surname": "Əlizadə",
+      "email": "famiskalizade@gmail.com",
+      "password": "12345678",
+      "confirm_password": "12345678"
+    },
+    {
+      "id": "f81c",
+      "name": "Fatimə",
+      "surname": "Əlizadə",
+      "email": "wkaf2004@gmail.com",
+      "password": "12345678",
+      "confirm_password": "12345678"
+    },
+    {
+      "id": "4eca",
+      "name": "Fatimə",
+      "surname": "Əlizadə",
+      "email": "rhrhr@gmail.com",
+      "password": "12345678",
+      "confirm_password": "12345678"
+    },
+    {
+      "id": "80c4",
+      "name": "ss",
+      "surname": "ss",
+      "email": "ffff@gmail.com",
+      "password": "12345678",
+      "confirm_password": "12345678"
+    }
+  ]
+}

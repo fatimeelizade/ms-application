@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,77 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.container{
+  padding-top: 100px;
+  padding-left: 200px;
+  padding-bottom: 100px;
+  border-radius: 10px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+
+}
+.btn{
+  background-color: #3737de;
+  width: 100px;
+  color: white;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.back{
+  color: white;
+  margin-top: 25px;
+  margin-left: 25px;
+  font-size: 27px;
+}
+.bg-color-white{
+  background-color: white;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.form-register, .form-login{
+  display: flex;
+  flex-direction: column;
+margin-top: 150px;
+margin-left: 550px;
+ background-color: white;
+ padding: 70px 50px;
+ border-radius: 10px;
+ width: 400px;
+}
+.div-register label{
+  font-size: 20px;
+  margin-right: 155px;
+}
+.div-login label{
+  font-size: 20px;
+  margin-right: 155px;
+}
+.input-register, .input-login{
+  border: 1px solid rgba(0, 0, 0, 0.441);
+  border-radius: 5px;
+  width: 300px;
+  height: 40px;
+}
+.btn-register, .btn-login{
+  font-size: 20px;
+  background-color: #3737de;
+width: 150px;
+  color: white;
+  padding: 8px 30px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.red-error{
+  color: red;
 }
