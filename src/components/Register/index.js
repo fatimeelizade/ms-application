@@ -10,11 +10,20 @@ export default function Register() {
     watch,
     reset,
     formState: { errors },
-  } = useForm();
+  } = useForm()
   const onSubmit = async (data) => {
-    const response = await axios.post("http://localhost:3000/posts", data);
-    reset();
-   return response; 
+    const response = await axios.get("http://localhost:3000/posts")
+    const userData = response.data.find(user => user.email === data.email)
+    if (userData) {
+      alert("This user already exists")
+      reset()
+    }
+    else{
+      alert("Uğurla registrasiya olundu")
+      reset()
+      return await axios.post("http://localhost:3000/posts", data)
+  
+    }
   };
   return (
     <>

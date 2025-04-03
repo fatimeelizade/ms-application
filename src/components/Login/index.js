@@ -11,9 +11,8 @@ export default function Login(){
     } = useForm();
     const onSubmit = async (data) => {
         const response = await axios.get("http://localhost:3000/posts");
-        const userDatas = response.data;
-        const userData = userDatas.find(
-          (loginData) => loginData.email === data.email && loginData.password === data.password
+        const userData = response.data.find(
+          loginData => loginData.email === data.email && loginData.password === data.password
         )
          if (!userData) {
           alert("Yazdiginiz email ve ya sifre yanlisdir.");
